@@ -1,0 +1,55 @@
+/* HealthClaimsByAdmin.css */
+
+.health-claims-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .health-claims-container h2 {
+    text-align: center;
+    color: #007bff; /* Blue text color */
+  }
+  
+  .health-claims-container label {
+    margin-right: 10px;
+  }
+  
+  .health-claims-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .health-claims-table th, .health-claims-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .health-claims-table th {
+    background-color: #f2f2f2; /* Light gray background for header */
+  }
+  
+  .health-claims-table td {
+    background-color: #fff; /* White background for cells */
+  }
+  
+  .health-claims-table tbody tr:hover {
+    background-color: #f5f5f5; /* Light gray background on hover */
+  }
+  
+  .health-claims-container button {
+    background-color: #28a745; /* Green button color */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .health-claims-container button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  

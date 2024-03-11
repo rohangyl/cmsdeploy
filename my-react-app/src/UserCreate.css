@@ -1,0 +1,50 @@
+/* createUser.css */
+
+.createUser-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background */
+    border: 1px solid #ced4da; /* Light border color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .createUser-container h2 {
+    text-align: center;
+    color: #343a40; /* Dark text color */
+  }
+  
+  .createUser-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .createUser-form label {
+    margin: 10px 0;
+    color: #495057; /* Dark gray label color */
+  }
+  
+  .createUser-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ced4da; /* Light border color */
+    border-radius: 4px;
+  }
+  
+  .createUser-form button {
+    background-color: #007bff; /* Blue button color */
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .createUser-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  

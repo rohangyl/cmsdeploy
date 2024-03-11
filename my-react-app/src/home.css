@@ -1,0 +1,42 @@
+/* home.css */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4; /* Change this color to your desired background color */
+  }
+  
+  .header-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-container h1 {
+    color: #333; /* Change this color to your desired text color */
+  }
+  
+  .link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .link-container a {
+    text-decoration: none;
+    color: #007bff; /* Change this color to your desired link color */
+    font-size: 18px;
+    margin: 10px;
+    padding: 8px 16px;
+    border: 2px solid #007bff; /* Border color */
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .link-container a:hover {
+    background-color: #007bff; /* Hover background color */
+    color: #fff; /* Hover text color */
+  }
+  

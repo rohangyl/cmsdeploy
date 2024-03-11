@@ -1,0 +1,26 @@
+/* Add your global styles if any */
+
+.users-container {
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #555;
+  }
+  
